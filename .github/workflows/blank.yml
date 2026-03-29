@@ -30,7 +30,9 @@ jobs:
 
       - name: terraform init
         id: init
-        run: terraform init -input=false
+        run: 
+          pwd
+          ls
         working-directory: environments/dev
         
       
