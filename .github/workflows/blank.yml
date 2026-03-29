@@ -33,6 +33,6 @@ jobs:
         run: 
           pwd
           ls
-        working-directory: environments/dev
+        
         
       
