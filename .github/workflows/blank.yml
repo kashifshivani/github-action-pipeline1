@@ -31,6 +31,6 @@ jobs:
       - name: terraform init
         id: init
         run: terraform init -input=false
-        working-directory: environment/dev
+        working-directory: environments/dev
         
       
