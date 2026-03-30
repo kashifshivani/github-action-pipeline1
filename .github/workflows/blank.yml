@@ -32,6 +32,16 @@ jobs:
         id: init
         run: terraform init
         working-directory: enviroments/dev
+
+      - name: terraform validate
+        id: validate
+        run: terraform validate
+        working-directory: enviroments/dev
+
+      - name: terraform plan
+        id: plan
+        run: terraform plan
+        working-directory: enviroments/dev
         
         
       
